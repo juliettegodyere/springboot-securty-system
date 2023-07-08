@@ -4,7 +4,7 @@
 This is a Springboot and Spring Security with JWT Authentication and Authorization Microservice with Access and refresh token features.
 
 ## JSON WEB TOKEN (JWT)
-> This is just a way for application to transmit information. Application A to talk to application B securely. is very popular this days because it is very small, self contained and secure. Because it is small, you pass it into request bodies, headers and forms. It is easy to work it and it has become very popular for APIs for authorization. The way it works is that your application is going to give the token to a user. Create token take the user information and sign the token. The signature is digital and when ever the user wants to access the information, the user will send their information as authorization. JWY is mostly used for authorization. The JWT has 3 parts. The header, payload and signature;
+> This is just a way for applications to transmit information. Application A to talk to application B securely. is very popular this days because it is very small, self-contained and secure. Because it is small, you pass it into request bodies, headers and forms. It is easy to work it and it has become very popular for APIs for authorization. The way it works is that your application is going to give the token to a user. Create token take the user information and sign the token. The signature is digital and whenever the user wants to access the information, the user will send their information as authorization. JWY is mostly used for authorization. The JWT has 3 parts. The header, payload and signature;
 
 - Header - contains the algorithm and type
 ```{
